@@ -1,5 +1,8 @@
 ﻿#include <iostream>
 #include "TestDll.h"
+#include "MemoryModule.h"
+
+#pragma comment(lib,"MemoryModule.lib")
 
 int main()
 {
