@@ -20,13 +20,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="MemoryModule.lib">
-      <Filter>Файлы ресурсов</Filter>
-    </Library>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\x64\Release\TestDll.dll">
+    <ResourceCompile Include="DllMemoryLoaderTest.rc">
       <Filter>Файлы ресурсов</Filter>
-    </None>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Release\TestDll.dll" />
   </ItemGroup>
 </Project>
