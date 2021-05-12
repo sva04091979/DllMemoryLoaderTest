@@ -50,7 +50,7 @@ END
 // RCDATA
 //
 
-TestDll             RCDATA                  "C:\\Users\\SimakovVA.NCHTEC\\source\\repos\\DllMemoryLoaderTest\\x64\\Release\\TestDll.dll"
+TestDll             RCDATA                  "..\\x64\\Release\\TestDll.dll"
 
 #endif    // Русский (Россия) resources
 /////////////////////////////////////////////////////////////////////////////
